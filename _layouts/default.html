@@ -1,21 +1,79 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>{{ page.title }}</title>
-	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/style.css">
-</head>
-<body>
-<div class="hero">
-	<h1>Banner Welcome </h1>
-	<p></p>
-</div>
+    <head>
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/style.css">
+    </head>
+    <body>
+        <header class="HeaderSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="HeadingContent">
+                            <h1><a href="#">Sample</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="menuSec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <nav class="Menu">
+                            <ul>
+                                <li><a href="#">Podcats</a></li>
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">newsletter</a></li>
+                                <li><a href="#">book club</a></li>
+                                <li><a href="#">dirty tackle</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="socialIcon text-right">
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-facebook-square"></a>
+                            <a href="#" class="fa fa-google-plus"></a>
+                            <a href="#" class="Sfollow">Follow</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="contentLeft">
+                            <h1><a href="#">Dirty Tackle</a></h1>
+                            <div class="LefttLogo">
+                                <img src="./assets/images/rl.jpg" alt="">
+                                <p><a href="#">Brooks peck</a> in <a href="#">Howler Magazine</a><br>
+                                    <a href="#">Feb 16</a>.1 min read</p>
+                            </div>
+                            <img src="./assets/images/b1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="contentRight">
+                            <h1><a href="#">About</a></h1>
+                            <div class="LefttLogo">
+                                <img src="./assets/images/rl.jpg" alt="">
+                                <p><a href="#">Brooks peck</a> in <a href="#">Howler Magazine</a><br>
+                                    <a href="#">Feb 16</a>.1 min read</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {{ content }}
 
 
-{{ content }}
-
-<div class="hero">
-	<h1>Footer</h1>
-	<p>This is a initialize project from scratch</p>
-</div>
-</body>
+    </body>
 </html>
