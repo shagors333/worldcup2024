@@ -72,6 +72,9 @@ a, a:hover, a:visited, a.active {
   position: relative; }
   .wrapper .contentLeft {
     padding-top: 25px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
     padding-bottom: 25px; }
     .wrapper .contentLeft h1 {
       width: 100%;
@@ -94,6 +97,20 @@ a, a:hover, a:visited, a.active {
         padding-left: 20px; }
         .wrapper .contentLeft .LefttLogo p a {
           color: #737171; }
+    .wrapper .contentLeft .LeftImage {
+      width: 100%;
+      height: 100%;
+      padding: 40px 0 0; }
+    .wrapper .contentLeft .LeftContent {
+      width: 100%;
+      height: 100%;
+      padding: 25px 0 20px; }
+      .wrapper .contentLeft .LeftContent h2 {
+        font-weight: 700;
+        padding-bottom: 20px; }
+      .wrapper .contentLeft .LeftContent p {
+        color: #737171;
+        font-size: 15px; }
   .wrapper .contentRight {
     padding-top: 25px; }
     .wrapper .contentRight h1 {
@@ -108,6 +125,11 @@ a, a:hover, a:visited, a.active {
       width: 100%;
       height: 100%;
       padding: 20px 0 30px; }
+      .wrapper .contentRight .LefttLogo h4 {
+        font-size: 17px;
+        padding-left: 48px;
+        padding-top: 5px;
+        color: #737171; }
       .wrapper .contentRight .LefttLogo img {
         border-radius: 50%;
         float: left; }
@@ -117,3 +139,26 @@ a, a:hover, a:visited, a.active {
         padding-left: 20px; }
         .wrapper .contentRight .LefttLogo p a {
           color: #737171; }
+    .wrapper .contentRight .UsefullLinks {
+      width: 100%;
+      height: 100%;
+      padding-top: 7px; }
+      .wrapper .contentRight .UsefullLinks a {
+        display: inline-block;
+        color: #737171;
+        transition: all ease 600ms; }
+        .wrapper .contentRight .UsefullLinks a:hover {
+          color: #000; }
+    .wrapper .contentRight .socialIcon {
+      width: 100%;
+      height: 100%;
+      padding: 10px 0; }
+      .wrapper .contentRight .socialIcon a {
+        color: #737171;
+        margin-left: 10px;
+        font-size: 16px;
+        transition: all ease 200ms; }
+        .wrapper .contentRight .socialIcon a:hover {
+          color: #000; }
+      .wrapper .contentRight .socialIcon a:first-child {
+        margin-left: 0; }
