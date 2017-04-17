@@ -56,6 +56,8 @@ a, a:hover, a:visited, a.active {
       font-size: 20px;
       color: #868484;
       margin-right: 21px; }
+      .menuSec .socialIcon a:hover {
+        color: #fff; }
     .menuSec .socialIcon .Sfollow {
       border: 1px solid #868484;
       border-radius: 50px;
@@ -162,3 +164,9 @@ a, a:hover, a:visited, a.active {
           color: #000; }
       .wrapper .contentRight .socialIcon a:first-child {
         margin-left: 0; }
+
+.CmFooterSec {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #FFFF01; }
